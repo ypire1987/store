@@ -120,16 +120,6 @@ class ProductContext extends Component {
       }
     }
 
-    /**
-     * The breadcrumb component is being used in multiple pages,
-     * therefore we need to adapt the data to its needs instead of
-     * making the component do the changes itself.
-    **/
-    const breadcrumbsProps = {
-      term: slug,
-      categories: product ? product.categories : null,
-    }
-
     return (
       React.cloneElement(this.props.children, Object.assign(
         {},
@@ -137,8 +127,8 @@ class ProductContext extends Component {
           productQuery,
           slug,
           params,
+          categories: product ? product.categories : null,
         },
-        breadcrumbsProps,
         props
       ))
     )
