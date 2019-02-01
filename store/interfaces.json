@@ -77,6 +77,11 @@
       "login-content"
     ]
   },
+  "store.checkout": {
+    "required": [
+      "checkout-app"
+    ]
+  },
   "storeWrapper": {
     "allowed": [
       "highlight-overlay"
