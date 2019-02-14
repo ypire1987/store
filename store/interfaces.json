@@ -78,8 +78,15 @@
     ]
   },
   "store.checkout": {
+    "before": [
+      "header"
+    ],
     "required": [
       "checkout-app"
+    ],
+    "after": [
+      "footer",
+      "scoped-tachyons-class-adder"
     ]
   },
   "storeWrapper": {
