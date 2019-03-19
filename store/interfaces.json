@@ -6,7 +6,7 @@
       "challenge"
     ],
     "before": [
-      "header"
+      "header.container"
     ],
     "after": [
       "footer"
@@ -16,7 +16,9 @@
       "shelf",
       "rebuy",
       "promo-bar",
-      "info-card"
+      "info-card",
+      "header.desktop",
+      "header.mobile"
     ],
     "preview": {
       "type": "block"
@@ -27,18 +29,22 @@
       "homeWrapper"
     ],
     "before": [
-      "header.full"
+      "header.container"
     ],
     "allowed": [
       "search-result"
-    ]
+    ],
+    "preview": {
+      "type": "block",
+      "height": "1200"
+    }
   },
   "store.product": {
     "around": [
       "productWrapper"
     ],
     "before": [
-      "header.full"
+      "header"
     ],
     "required": [
       "product-details"
@@ -46,35 +52,51 @@
     "allowed": [
       "product-kit"
     ],
-    "context": "ProductContext"
+    "context": "ProductContext",
+    "preview": {
+      "type": "block",
+      "height": "1200"
+    }
   },
   "store.search": {
     "around": [
       "searchWrapper"
     ],
     "before": [
-      "header.full"
+      "header"
     ],
     "required": [
       "search-result"
     ],
-    "context": "SearchContext"
+    "context": "SearchContext",
+    "preview": {
+      "type": "block",
+      "height": "1200"
+    }
   },
   "store.account": {
     "before": [
-      "header.full"
+      "header"
     ],
     "required": [
       "my-account"
-    ]
+    ],
+    "preview": {
+      "type": "block",
+      "height": "1200"
+    }
   },
   "store.login": {
     "before": [
-      "header.full"
+      "header"
     ],
     "required": [
       "login-content"
-    ]
+    ],
+    "preview": {
+      "type": "block",
+      "height": "1200"
+    }
   },
   "store.orderplaced": {
     "required": [
