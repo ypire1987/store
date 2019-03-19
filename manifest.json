@@ -34,7 +34,8 @@
     "vtex.my-account": "1.x",
     "vtex.rebuy": "1.x",
     "vtex.order-placed": "1.x",
-    "vtex.pixel-manager": "0.x"
+    "vtex.pixel-manager": "0.x",
+    "vtex.future-menu": "0.x"
   },
   "settingsSchema": {
     "title": "VTEX Store",
