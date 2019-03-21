@@ -6,7 +6,7 @@
       "challenge"
     ],
     "before": [
-      "header.container"
+      "header"
     ],
     "after": [
       "footer"
@@ -16,9 +16,7 @@
       "shelf",
       "rebuy",
       "promo-bar",
-      "info-card",
-      "header.desktop",
-      "header.mobile"
+      "info-card"
     ],
     "preview": {
       "type": "block"
@@ -29,7 +27,7 @@
       "homeWrapper"
     ],
     "before": [
-      "header.container"
+      "header"
     ],
     "allowed": [
       "search-result"
