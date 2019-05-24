@@ -10,6 +10,28 @@ import { initializeMap, SORT_OPTIONS } from './utils/search'
 const DEFAULT_PAGE = 1
 const DEFAULT_MAX_ITEMS_PER_PAGE = 10
 
+const facetArgs = queryVariables => {
+  const queryAndMap = zip(
+    queryVariables.query.split('/'),
+    queryVariables.map.split(',')
+  )
+  if (queryAndMap.length === 1 && queryAndMap[0][1] === 'b') {
+    // If is a brand page only, insert b map in facet query
+    const [element] = queryAndMap
+    return { map: [element[1]], query: [element[0]] }
+  }
+  // must only send categories and ft query and map
+  return queryAndMap
+    .filter(([_, map]) => map === 'c' || map === 'ft')
+    .reduce(
+      ({ query: queryArr, map: mapArr }, [query, map]) => ({
+        query: [...queryArr, query],
+        map: [...mapArr, map],
+      }),
+      { map: [], query: [] }
+    )
+}
+
 const SearchContext = ({
   nextTreePath,
   params,
@@ -66,18 +88,7 @@ const SearchContext = ({
 
   const queryVariables = queryField ? customSearch : defaultSearch
 
-  const { map: facetMap, query: facetQuery } = zip(
-    queryVariables.query.split('/'),
-    queryVariables.map.split(',')
-  )
-    .filter(([_, map]) => map === 'c' || map === 'ft')
-    .reduce(
-      ({ query: queryArr, map: mapArr }, [query, map]) => ({
-        query: [...queryArr, query],
-        map: [...mapArr, map],
-      }),
-      { map: [], query: [] }
-    )
+  const { map: facetMap, query: facetQuery } = facetArgs(queryVariables)  
 
   queryVariables.facetQuery = facetQuery.join('/')
   queryVariables.facetMap = facetMap.join(',')
