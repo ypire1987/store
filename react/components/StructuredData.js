@@ -137,7 +137,7 @@ const composeAggregateOffer = (product, currency) => {
   return aggregateOffer
 }
 
-const parseToJsonLD = (product, selectedItem, currency, locale) => {
+export const parseToJsonLD = (product, selectedItem, currency) => {
   const image = head(path(['images'], selectedItem))
   const brand = product.brand
   const name = product.productName
@@ -154,21 +154,16 @@ const parseToJsonLD = (product, selectedItem, currency, locale) => {
     offers: composeAggregateOffer(product, currency),
   }
 
-  return JSON.stringify(productLD)
+  return productLD
 }
 
 function StructuredData({ product, selectedItem }) {
   const {
-    culture: { currency, locale },
+    culture: { currency },
   } = useRuntime()
-  const productLD = parseToJsonLD(product, selectedItem, currency, locale)
+  const productLD = parseToJsonLD(product, selectedItem, currency)
 
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: productLD }}
-    />
-  )
+  return <script type="application/ld+json">{JSON.stringify(productLD)}</script>
 }
 
 StructuredData.propTypes = {
