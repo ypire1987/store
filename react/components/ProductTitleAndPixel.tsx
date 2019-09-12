@@ -2,47 +2,15 @@ import React, { useMemo, FC } from 'react'
 import { Helmet, useRuntime } from 'vtex.render-runtime'
 import { head, last, path } from 'ramda'
 import useDataPixel from '../hooks/useDataPixel'
+import { Product, SKU } from '../typings/product'
 
 const titleSeparator = ' - '
 
 const STORE_APP = 'vtex.store'
 
-interface Product {
-  linkText: string
-  productName: string
-  brand: string
-  categoryId: string
-  categoryTree: Category[]
-  productId: string
-  titleTag: string
-  metaTagDescription: string
-}
+type MaybeProduct = Product | undefined
 
-interface Category {
-  id: string
-  name: string
-}
-
-interface SKU {
-  itemId: string
-  ean: string
-  referenceId: [{ Value: string }]
-  sellers: Seller[]
-}
-
-interface Seller {
-  commertialOffer: CommertialOffer
-  sellerId: string
-}
-
-interface CommertialOffer {
-  ListPrice: number
-  Price: number
-}
-
-type MaybeProduct = Product | null
-
-function usePageEvents(titleTag: string, product: MaybeProduct, selectedItem: SKU, loading: boolean) {
+function usePageEvents(titleTag: string, product: MaybeProduct, selectedItem: SKU|null, loading: boolean) {
   const { account } = useRuntime()
   const { productName = undefined } = product || {}
 
@@ -111,7 +79,7 @@ function usePageEvents(titleTag: string, product: MaybeProduct, selectedItem: SK
   useDataPixel(pageEvents, path(['linkText'], product), loading)
 }
 
-function useProductEvents(product: Product, selectedItem: SKU, loading: boolean) {
+function useProductEvents(product: MaybeProduct, selectedItem: SKU|null, loading: boolean) {
   const productEvents = useMemo(() => {
     if (!product || typeof document === 'undefined' || !selectedItem) {
       return []
@@ -138,7 +106,7 @@ function useProductEvents(product: Product, selectedItem: SKU, loading: boolean)
   useDataPixel(productEvents, pixelCacheKey, loading)
 }
 
-function useTitle(product: Product) {
+function useTitle(product?: Product) {
   const { getSettings } = useRuntime()
   const { titleTag = undefined, productName = undefined } = product || {}
   let title = titleTag || productName || ''
@@ -157,8 +125,8 @@ function useTitle(product: Product) {
 }
 
 interface Props {
-  product: Product
-  selectedItem: SKU
+  product?: Product
+  selectedItem: SKU|null
   loading: boolean
 }
 
