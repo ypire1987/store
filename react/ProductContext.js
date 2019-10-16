@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React, { useEffect, useMemo } from 'react'
 import { withApollo, graphql, compose } from 'react-apollo'
 import { isEmpty } from 'ramda'
-import { useRuntime } from 'vtex.render-runtime'
+import { useRuntime, Loading } from 'vtex.render-runtime'
 
 import {
   product,
@@ -40,9 +40,9 @@ const useProduct = ({ catalog, productBenefits, categoryTree }) => {
 function getLoading(props) {
   const {
     catalog: { loading: catalogLoading = true } = {},
-    productBenefits: { loading: benefitsLoading = true } = {},
+    categoryTree: { loading: categoryTreeLoading = true } = {},
   } = props
-  return catalogLoading || benefitsLoading
+  return catalogLoading || categoryTreeLoading
 }
 
 function useNotFound(loading, propsProduct, slug) {
@@ -105,6 +105,10 @@ const ProductContext = _props => {
     }),
     [productQuery, slug, params]
   )
+
+  if (loading && product == null) {
+    return <Loading />
+  }
 
   return React.cloneElement(props.children, childrenProps)
 }
