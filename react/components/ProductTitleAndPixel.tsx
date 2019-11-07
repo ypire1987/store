@@ -2,6 +2,7 @@ import React, { useMemo, FC } from 'react'
 import { Helmet, useRuntime } from 'vtex.render-runtime'
 import { head, last, path } from 'ramda'
 import useDataPixel from '../hooks/useDataPixel'
+import { usePageView } from '../components/PageViewPixel'
 
 const titleSeparator = ' - '
 
@@ -42,7 +43,7 @@ interface CommertialOffer {
 
 type MaybeProduct = Product | null
 
-function usePageEvents(titleTag: string, product: MaybeProduct, selectedItem: SKU, loading: boolean) {
+function usePageInfo(titleTag: string, product: MaybeProduct, selectedItem: SKU, loading: boolean) {
   const { account } = useRuntime()
   const { productName = undefined } = product || {}
 
@@ -96,18 +97,7 @@ function usePageEvents(titleTag: string, product: MaybeProduct, selectedItem: SK
       pageInfo.sellerIds = `${sellerId}`
     }
 
-    const pageView = {
-      event: 'pageView',
-      pageTitle: titleTag,
-      pageUrl: location.href,
-      referrer:
-        document.referrer.indexOf(location.origin) === 0
-          ? undefined
-          : document.referrer,
-      accountName: account,
-    }
-
-    return [pageView, pageInfo]
+    return pageInfo
   }, [account, product, productName, selectedItem, titleTag])
 
   useDataPixel(pageEvents, path(['linkText'], product), loading)
@@ -168,7 +158,9 @@ const ProductTitleAndPixel: FC<Props> = ({ product, selectedItem, loading }) => 
   const { metaTagDescription = undefined } = product || {}
   const title = useTitle(product)
 
-  usePageEvents(title, product, selectedItem, loading)
+  const pixelCacheKey = path<string>(['linkText'], product)
+  usePageView({ title, skip: pixelCacheKey === undefined, cacheKey: pixelCacheKey })
+  usePageInfo(title, product, selectedItem, loading)
   useProductEvents(product, selectedItem, loading)
 
   return (
