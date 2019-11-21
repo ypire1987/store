@@ -2,7 +2,7 @@
   "store": {
     "allowConditions": true,
     "component": "*",
-    "around": ["storeWrapper", "challenge"],
+    "around": ["offlineWrapper", "storeWrapper", "challenge"],
     "before": ["header.full"],
     "after": ["footer", "pixels"],
     "allowed": [
@@ -162,6 +162,10 @@
   },
   "customWrapper": {
     "component": "CustomWrapper"
+  },
+  "offlineWrapper": {
+    "component": "OfflineWrapper",
+    "required": ["offline-warning"]
   },
   "challenge": {
     "component": "DefaultChallenge",
