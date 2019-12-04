@@ -5303,6 +5303,202 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
+"vtex.add-to-cart-button@https://lucas2--storecomponents.myvtex.com/_v/private/typings/linked/v1/vtex.add-to-cart-button@0.1.1+build1574971140/public/@types/vtex.add-to-cart-button":
+  version "0.1.1"
+  resolved "https://lucas2--storecomponents.myvtex.com/_v/private/typings/linked/v1/vtex.add-to-cart-button@0.1.1+build1574971140/public/@types/vtex.add-to-cart-button#8a2d8cda43fb2d93a59e7c12092c85dc941e1144"
+
+"vtex.blog-interfaces@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.blog-interfaces@0.0.6/public/@types/vtex.blog-interfaces":
+  version "0.0.6"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.blog-interfaces@0.0.6/public/@types/vtex.blog-interfaces#c25ee2ab9657266ed0deea268dab59675f5f8b69"
+
+"vtex.breadcrumb@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.breadcrumb@1.8.2/public/@types/vtex.breadcrumb":
+  version "1.8.2"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.breadcrumb@1.8.2/public/@types/vtex.breadcrumb#b81bebca65b2fa38c9b8106eca997c56fb866c0f"
+
+"vtex.carousel@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.carousel@2.11.4/public/@types/vtex.carousel":
+  version "2.11.4"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.carousel@2.11.4/public/@types/vtex.carousel#5f85f588d2e98270d5adae35933808e2e1b7ce7d"
+
+"vtex.flex-layout@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.flex-layout@0.13.1/public/@types/vtex.flex-layout":
+  version "0.13.1"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.flex-layout@0.13.1/public/@types/vtex.flex-layout#e6fce5cc49b7b6ba79abcbff696a24d3adf3eeb9"
+
+"vtex.iframe@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.iframe@0.0.4/public/@types/vtex.iframe":
+  version "0.0.4"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.iframe@0.0.4/public/@types/vtex.iframe#765c65854b8db52b4fafdd695c67ccc8cf4e1ed8"
+
+"vtex.list-context@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.list-context@0.1.1/public/@types/vtex.list-context":
+  version "0.1.1"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.list-context@0.1.1/public/@types/vtex.list-context#c8ac9fc35b3f82b782562fa96e487ffc5ff02ca6"
+
+"vtex.login@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.login@2.20.1/public/_types/react":
+  version "0.0.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.login@2.20.1/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
+
+"vtex.menu@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.menu@2.20.1/public/@types/vtex.menu":
+  version "2.20.1"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.menu@2.20.1/public/@types/vtex.menu#3247639ab7a49f22b07a7e78e71a773cfebf73d4"
+
+"vtex.my-account@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.my-account@1.11.1/public/@types/vtex.my-account":
+  version "1.11.1"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.my-account@1.11.1/public/@types/vtex.my-account#b6aa06da9260500ce5b77d59ae457d810066275c"
+
+"vtex.open-graph@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.open-graph@1.0.4/public/@types/vtex.open-graph":
+  version "1.0.4"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.open-graph@1.0.4/public/@types/vtex.open-graph#b3a93f71d51efe163a2c1c01da04a7155e6dbe08"
+
+"vtex.order-manager@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.order-manager@0.6.3/public/@types/vtex.order-manager":
+  version "0.6.3"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.order-manager@0.6.3/public/@types/vtex.order-manager#ac8ffa5704ac4b0c550b4289a0867f09c7cb46e4"
+
+"vtex.order-placed@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.order-placed@1.7.1/public/@types/vtex.order-placed":
+  version "1.7.1"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.order-placed@1.7.1/public/@types/vtex.order-placed#968a059d2e8cb2596e2a097e43d00574f96b267e"
+
+"vtex.pickup-availability@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.pickup-availability@0.0.2/public/@types/vtex.pickup-availability":
+  version "0.0.2"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.pickup-availability@0.0.2/public/@types/vtex.pickup-availability#e9cd3f55733a36cd40fb397badaf918ff08decf2"
+
+"vtex.pixel-interfaces@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.pixel-interfaces@1.1.0/public/_types/react":
+  version "0.0.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.pixel-interfaces@1.1.0/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
+
+"vtex.pixel-manager@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.pixel-manager@1.1.4/public/@types/vtex.pixel-manager":
+  version "1.1.4"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.pixel-manager@1.1.4/public/@types/vtex.pixel-manager#96907e17f4e5c584162a47dc425cb5afb2267d00"
+
+"vtex.product-availability@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-availability@0.0.2/public/_types/react":
+  version "0.0.2"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-availability@0.0.2/public/_types/react#6b170db768afe1a088f506bc1b7384a1137e692a"
+
+"vtex.product-context@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-context@0.5.0/public/@types/vtex.product-context":
+  version "0.5.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-context@0.5.0/public/@types/vtex.product-context#38d38df9a617b9c356cf3fab048eb60968bcc759"
+
+"vtex.product-customizer@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-customizer@2.6.5/public/@types/vtex.product-customizer":
+  version "2.6.5"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-customizer@2.6.5/public/@types/vtex.product-customizer#da900b312247157355887aea6122ef4e8204307c"
+
+"vtex.product-details@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-details@1.19.10/public/_types/react":
+  version "0.0.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-details@1.19.10/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
+
+"vtex.product-identifier@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-identifier@0.1.2/public/@types/vtex.product-identifier":
+  version "0.1.2"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-identifier@0.1.2/public/@types/vtex.product-identifier#e5f249136a1e1d54eae5f5c2bf512144a0f67477"
+
+"vtex.product-kit@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-kit@1.10.0/public/_types/react":
+  version "0.0.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-kit@1.10.0/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
+
+"vtex.product-quantity@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-quantity@1.2.0/public/@types/vtex.product-quantity":
+  version "1.2.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-quantity@1.2.0/public/@types/vtex.product-quantity#f4514e0c4843f139e66a942291db1ca8b4fb9a8d"
+
+"vtex.product-review-interfaces@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-review-interfaces@1.0.2/public/_types/react":
+  version "1.0.2"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-review-interfaces@1.0.2/public/_types/react#84d1997cdae079d1401611f3d4a4619ed914673f"
+
+"vtex.product-specification-badges@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-specification-badges@0.0.2/public/@types/vtex.product-specification-badges":
+  version "0.0.2"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-specification-badges@0.0.2/public/@types/vtex.product-specification-badges#f21a77db281a34fe819dd9ff4fb658a6ab8a6eae"
+
+"vtex.product-teaser-interfaces@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-teaser-interfaces@1.0.2/public/_types/react":
+  version "1.0.2"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.product-teaser-interfaces@1.0.2/public/_types/react#6b300916852675e4a0686b82b07b318982abf110"
+
+"vtex.pwa-components@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.pwa-components@0.4.1/public/@types/vtex.pwa-components":
+  version "0.4.1"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.pwa-components@0.4.1/public/@types/vtex.pwa-components#a576d7799f8e4c5c4db1ff539dcebe0cf95dbbd9"
+
+"vtex.pwa-graphql@https://lucas2--storecomponents.myvtex.com/_v/private/typings/linked/v1/vtex.pwa-graphql@1.13.1+build1573655353/public/@types/vtex.pwa-graphql":
+  version "1.13.1"
+  resolved "https://lucas2--storecomponents.myvtex.com/_v/private/typings/linked/v1/vtex.pwa-graphql@1.13.1+build1573655353/public/@types/vtex.pwa-graphql#3c3fc82045b1c91be6443385034ef33956d92c41"
+
+"vtex.rebuy@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.rebuy@1.4.0/public/_types/react":
+  version "0.0.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.rebuy@1.4.0/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
+
+"vtex.render-runtime@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.render-runtime@8.80.0/public/@types/vtex.render-runtime":
+  version "8.80.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.render-runtime@8.80.0/public/@types/vtex.render-runtime#c713113f4a1d7d36d58838afdbf7ea8d0de77296"
+
+"vtex.responsive-layout@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.responsive-layout@0.1.0/public/@types/vtex.responsive-layout":
+  version "0.1.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.responsive-layout@0.1.0/public/@types/vtex.responsive-layout#6b1c175c5fbcd113bf64c34a8506dff3aeb25435"
+
+"vtex.rich-text@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.rich-text@0.8.2/public/@types/vtex.rich-text":
+  version "0.8.2"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.rich-text@0.8.2/public/@types/vtex.rich-text#397936dad971ebee1d0e204b766daa2d502fd3aa"
+
+"vtex.sandbox@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.sandbox@0.3.0/public/@types/vtex.sandbox":
+  version "0.3.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.sandbox@0.3.0/public/@types/vtex.sandbox#e773e6e5a315a48bb99c9145f7af5fc05f7bb5d4"
+
+"vtex.search-result@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.search-result@3.39.6/public/_types/react":
+  version "0.0.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.search-result@3.39.6/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
+
+"vtex.shelf@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.shelf@1.33.3/public/_types/react":
+  version "0.0.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.shelf@1.33.3/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
+
+"vtex.shop-review-interfaces@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.shop-review-interfaces@0.2.0/public/_types/react":
+  version "0.2.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.shop-review-interfaces@0.2.0/public/_types/react#9d8c9a7ac6bfbba1f32f4d03a3626c777a1823c0"
+
+"vtex.slider-layout@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.slider-layout@0.7.1/public/@types/vtex.slider-layout":
+  version "0.7.1"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.slider-layout@0.7.1/public/@types/vtex.slider-layout#b8f924fc1074e7356a917e8e9f448e17d0abb871"
+
+"vtex.stack-layout@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.stack-layout@0.0.1/public/@types/vtex.stack-layout":
+  version "0.0.1"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.stack-layout@0.0.1/public/@types/vtex.stack-layout#dada2b19a2cf94aa58b29c0e484ba5d37c0253b9"
+
+"vtex.sticky-layout@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.sticky-layout@0.1.4/public/@types/vtex.sticky-layout":
+  version "0.1.4"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.sticky-layout@0.1.4/public/@types/vtex.sticky-layout#0eb3c010151b10c0f9760e626339a3cc41b04752"
+
+"vtex.store-components@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.store-components@3.92.1/public/_types/react":
+  version "0.0.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.store-components@3.92.1/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
+
+"vtex.store-footer@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.store-footer@2.18.0/public/@types/vtex.store-footer":
+  version "2.18.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.store-footer@2.18.0/public/@types/vtex.store-footer#6179d8f934b2d903eac82a68e65c3b5d17fe392c"
+
+"vtex.store-graphql@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.store-graphql@2.110.0/public/@types/vtex.store-graphql":
+  version "2.110.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.store-graphql@2.110.0/public/@types/vtex.store-graphql#8eaa8e1e5a8737258a690adc86ba1f1cc23352eb"
+
+"vtex.store-header@https://lucas2--storecomponents.myvtex.com/_v/private/typings/linked/v1/vtex.store-header@2.22.1+build1574861839/public/_types/react":
+  version "0.0.0"
+  resolved "https://lucas2--storecomponents.myvtex.com/_v/private/typings/linked/v1/vtex.store-header@2.22.1+build1574861839/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
+
+"vtex.store-image@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.store-image@0.3.1/public/@types/vtex.store-image":
+  version "0.3.1"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.store-image@0.3.1/public/@types/vtex.store-image#4d727aaf4932fff9d83e59516d1571fe5d458bc7"
+
+"vtex.store-resources@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.store-resources@0.37.1/public/_types/react":
+  version "0.0.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.store-resources@0.37.1/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
+
+"vtex.structured-data@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.structured-data@0.2.0/public/@types/vtex.structured-data":
+  version "0.2.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.structured-data@0.2.0/public/@types/vtex.structured-data#88bebdb1a37ddeb354b4c18834be2ef1024b9711"
+
+"vtex.styleguide@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.styleguide@9.97.2/public/@types/vtex.styleguide":
+  version "9.97.2"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.styleguide@9.97.2/public/@types/vtex.styleguide#2a6165c52b73dbb102276b7d17a97500a642c750"
+
+"vtex.tab-layout@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.tab-layout@0.1.0/public/@types/vtex.tab-layout":
+  version "0.1.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.tab-layout@0.1.0/public/@types/vtex.tab-layout#1590954b4047bf7d0306bf03c143cac560097fae"
+
+"vtex.visibility-layout@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.visibility-layout@0.2.0/public/@types/vtex.visibility-layout":
+  version "0.2.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.visibility-layout@0.2.0/public/@types/vtex.visibility-layout#a7893343c79f5bec7039d057d12c858924c39743"
+
 w3c-hr-time@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/w3c-hr-time/-/w3c-hr-time-1.0.1.tgz#82ac2bff63d950ea9e3189a58a65625fedf19045"
