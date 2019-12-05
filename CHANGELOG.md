@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.78.0-beta] - 2019-12-05
+
 ## [2.77.1] - 2019-12-04
 ### Fixed
 - Hanging loading screen between search pages.
