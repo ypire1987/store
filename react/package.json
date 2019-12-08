@@ -24,7 +24,7 @@
     "react-apollo": "^2.0.4",
     "react-dom": "^16.2.0",
     "react-intl": "^2.4.0",
-    "typescript": "3.5.2",
+    "typescript": "3.7.3",
     "vtex.responsive-layout": "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.responsive-layout@0.1.0/public/@types/vtex.responsive-layout",
     "vtex.pixel-manager": "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.pixel-manager@1.1.4/public/@types/vtex.pixel-manager",
     "vtex.store-graphql": "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.store-graphql@2.110.0/public/@types/vtex.store-graphql",
