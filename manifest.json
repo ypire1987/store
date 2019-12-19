@@ -60,7 +60,8 @@
     "vtex.list-context": "0.x",
     "vtex.menu": "2.x",
     "vtex.order-manager": "0.x",
-    "vtex.add-to-cart-button": "0.x"
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.product-summary": "2.x"
   },
   "settingsSchema": {
     "title": "VTEX Store",
@@ -114,10 +115,7 @@
               "type": "string"
             }
           },
-          "required": [
-            "rel",
-            "href"
-          ]
+          "required": ["rel", "href"]
         },
         "description": "Configure your store's favicons"
       }
